@@ -1,0 +1,7 @@
+Flask==2.0.3
+Flask-SQLAlchemy==2.5.1
+Flask-Mail==0.9.1
+google-api-python-client==2.34.0
+slack-sdk==3.12.0
+twilio==7.5.0
+

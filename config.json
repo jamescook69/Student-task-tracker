@@ -1,0 +1,17 @@
+{
+  "google_calendar": {
+    "client_id": "your_client_id",
+    "client_secret": "your_client_secret"
+  },
+  "gmail": {
+    "api_key": "your_gmail_api_key"
+  },
+  "slack": {
+    "webhook_url": "your_webhook_url"
+  },
+  "twilio": {
+    "account_sid": "your_account_sid",
+    "auth_token": "your_auth_token",
+    "from_number": "+1234567890"
+  }
+}
