@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Task Organizer</title>
+</head>
+<body>
+    <h1>Welcome to the Student Task Organizer</h1>
+    <form action="/add_task" method="post">
+        <label for="name">Task Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="deadline">Deadline:</label>
+        <input type="datetime-local" id="deadline" name="deadline" required>
+
+        <label for="notes">Notes:</label>
+        <textarea id="notes" name="notes"></textarea>
+
+        <button type="submit">Add Task</button>
+    </form>
+</body>
+</html>
